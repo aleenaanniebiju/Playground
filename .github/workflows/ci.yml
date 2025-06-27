@@ -2,9 +2,9 @@ name: WebdriverIO CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ aleena]
   pull_request:
-    branches: [ main ]
+    branches: [aleena]
 
 jobs:
   build:
