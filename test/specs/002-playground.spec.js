@@ -1,5 +1,5 @@
 import homePage from "../pageobjects/homePage.js";
-import testData from "../TestData/testData.json" with {type:'json'};
+import testData from "../TestData/testData.json" assert { type: 'json' };
 import loginPage from "../pageobjects/loginPage.js";
 import shopPage from "../pageobjects/shopPage.js";
 import componentsPage from "../pageobjects/componentsPage.js";
