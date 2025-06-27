@@ -1,4 +1,8 @@
-exports.config = {
+export const config={
+
+
+
+
     //
     // ====================
     // Runner Configuration
