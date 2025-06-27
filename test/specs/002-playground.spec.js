@@ -7,11 +7,7 @@ import cartPage from "../pageobjects/cartPage.js";
 import contactPage from "../pageobjects/contactPage.js";
 import paymentPage from "../pageobjects/paymentPage.js";
 import aboutPage from "../pageobjects/aboutPage.js";
-import wishlistPage from "../pageobjects/wishlistPage.js";
 import profilePage from "../pageobjects/profilePage.js";
-
-
-
 const email = testData.login.email;
 const password = testData.login.password;
 let productTitle = "";
@@ -381,7 +377,7 @@ describe(`TC019 - Verify if the user is able to add the product to the wishlist`
     })
 })
 
-xdescribe(`TC022 - Verify user is able to update their profile`,function(){
+describe(`TC022 - Verify user is able to update their profile`,function(){
      it(`Navigate back to Home page`, async function () {
         await loginPage.navigateToHome();
         await expect(browser).toHaveTitle('PlayGround');
@@ -402,9 +398,8 @@ xdescribe(`TC022 - Verify user is able to update their profile`,function(){
         await expect(profilePage.$toastMessage()).withContext("The success message should be displayed").toHaveText("Successful!")
 
     })
-
 });
-xdescribe(`TC023 - Verify user is able to logout`,function(){
+describe(`TC023 - Verify user is able to logout`,function(){
     it(`Click on profile icon dropdown shown on the right side of the screen `,async function(){
        await profilePage.clickProfileMenuArrow();
        await expect(profilePage.$logOut()).toBeDisplayed();

@@ -10,6 +10,7 @@ class CartPage extends CommonPage {
         this.$productPrice = () => $$(`//div[contains(@class,"font-titleFont")]/p`);
         this.$subTotal = () => $('//div[contains(@class,"mb-2")]/span/following-sibling::span');
         this.$successMessage = () => $('//span[contains(@class,"font-semibold text-lg")]');
+         this.$message = () => $('//p[@class="pb-20 w-full md:w-96 font-medium text-green-500"]')
 
     }
     /**Clicking on the product */
