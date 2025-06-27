@@ -1,0 +1,52 @@
+{
+    "login": {
+        "email": "aleenakaithaparambil@gmail.com",
+        "password": "Aleena@21"
+    },
+    "brands": [
+        "Acer",
+        "Apple",
+        "Asus",
+        "Audio-Technica",
+        "Beats",
+        "Bose",
+        "Corsair",
+        "Dell",
+        "Gigabyte",
+        "Google",
+        "HP",
+        "Hisense",
+        "Huawei",
+        "Jabra",
+        "LG",
+        "Lenovo",
+        "MSI",
+        "Microsoft",
+        "Motorola",
+        "OnePlus",
+        "Oppo",
+        "Panasonic",
+        "Philips",
+        "Razer",
+        "Realme",
+        "Samsung",
+        "Sennheiser",
+        "Sony",
+        "SteelSeries",
+        "TCL",
+        "Toshiba",
+        "Vizio",
+        "xiaomi"
+    ],
+    "category": ["Headsets","Laptops","Mobiles","TVs"],
+    "products":"Laptops",
+    "Name":"Aleena Biju",
+    "Email":"aleenakaithaparambil@gmail.com",
+    "message":"message",
+    "address":"kaithaparambil(h) Elamdesom, Thodupuzha","phone" :9061753356,
+   
+    "country":"Australia",
+    "bio":"anything"
+    
+
+}
